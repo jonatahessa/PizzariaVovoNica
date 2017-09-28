@@ -101,12 +101,16 @@
                 <div id="tipo" class="form-group camposform">
                     <label for="tipo">Tipo</label>
                     <select class="form-control" name="tipo">
-                        <option value="PIZZA">Pizza</option>
-                        <option value="ESFIHA">Esfiha</option>
-                        <option value="PIZZA/FOGAZZA">Pizza/Fogazza</option>
-                        <option value="FOGAZZA">Fogazza</option>
-                        <option value="BORDA">Borda</option>
-                        <option value="BEBIDA">Bebida</option>
+                        <option value="BACON">Bacon</option>
+                        <option value="CALABRESA">Calabresa</option>
+                        <option value="FRANGO">Frango</option>
+                        <option value="LOMBO">Lombo</option>
+                        <option value="VEGETAIS">Vegetais</option>
+                        <option value="FRUTOS">Frutos do Mar</option>
+                        <option value="PRESUNTO">Presunto</option>
+                        <option value="QUEIJO">Queijo</option>
+                        <option value="ESPECIAIS">Especiais</option>
+                        <option value="DOCES">Pizzas Doces</option>
                         <option value="PROMOCAO">Promoção</option>
                     </select>
                 </div>

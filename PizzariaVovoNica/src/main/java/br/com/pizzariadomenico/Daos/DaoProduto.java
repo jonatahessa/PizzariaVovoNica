@@ -60,42 +60,82 @@ public class DaoProduto {
         return executarConsulta(sql);
     }
 
-    public static List<Produto> listarPaginaInicialPizza()
+    public static List<Produto> listarPaginaInicialBacon()
             throws SQLException, Exception {
         String sql = "SELECT * FROM Pizzas WHERE Ativo = 'SIM' AND "
-                + "Tipo = 'PIZZA' || Tipo = 'PIZZA/FOGAZZA' ORDER BY ID;";
+                + "Tipo = 'BACON';";
 
         return executarConsulta(sql);
     }
     
-    public static List<Produto> listarPaginaInicialEsfiha()
+    public static List<Produto> listarPaginaInicialCalabresa()
             throws SQLException, Exception {
         String sql = "SELECT * FROM Pizzas WHERE Ativo = 'SIM' AND "
-                + "Tipo = 'ESFIHA' ORDER BY ID;";
+                + "Tipo = 'CALABRESA';";
 
         return executarConsulta(sql);
     }
     
-    public static List<Produto> listarPaginaInicialFogazza()
+    public static List<Produto> listarPaginaInicialFrango()
             throws SQLException, Exception {
         String sql = "SELECT * FROM Pizzas WHERE Ativo = 'SIM' AND "
-                + "Tipo = 'FOGAZZA' || Tipo = 'PIZZA/FOGAZZA' ORDER BY ID;";
+                + "Tipo = 'FRANGO';";
 
         return executarConsulta(sql);
     }
     
-    public static List<Produto> listarPaginaInicialBebidas()
+    public static List<Produto> listarPaginaInicialLombo()
             throws SQLException, Exception {
         String sql = "SELECT * FROM Pizzas WHERE Ativo = 'SIM' AND "
-                + "Tipo = 'BEBIDA' ORDER BY ID;";
+                + "Tipo = 'LOMBO';";
 
         return executarConsulta(sql);
     }
     
-    public static List<Produto> listarPaginaInicialBordas()
+    public static List<Produto> listarPaginaInicialVegetais()
             throws SQLException, Exception {
         String sql = "SELECT * FROM Pizzas WHERE Ativo = 'SIM' AND "
-                + "Tipo = 'BORDA' ORDER BY ID;";
+                + "Tipo = 'VEGETAIS';";
+
+        return executarConsulta(sql);
+    }
+    
+    public static List<Produto> listarPaginaInicialFrutos()
+            throws SQLException, Exception {
+        String sql = "SELECT * FROM Pizzas WHERE Ativo = 'SIM' AND "
+                + "Tipo = 'FRUTOS';";
+
+        return executarConsulta(sql);
+    }
+    
+    public static List<Produto> listarPaginaInicialPresunto()
+            throws SQLException, Exception {
+        String sql = "SELECT * FROM Pizzas WHERE Ativo = 'SIM' AND "
+                + "Tipo = 'PRESUNTO';";
+
+        return executarConsulta(sql);
+    }
+    
+    public static List<Produto> listarPaginaInicialQueijo()
+            throws SQLException, Exception {
+        String sql = "SELECT * FROM Pizzas WHERE Ativo = 'SIM' AND "
+                + "Tipo = 'QUEIJO';";
+
+        return executarConsulta(sql);
+    }
+    
+    public static List<Produto> listarPaginaInicialEspeciais()
+            throws SQLException, Exception {
+        String sql = "SELECT * FROM Pizzas WHERE Ativo = 'SIM' AND "
+                + "Tipo = 'ESPECIAIS';";
+
+        return executarConsulta(sql);
+    }
+    
+    public static List<Produto> listarPaginaInicialDoces()
+            throws SQLException, Exception {
+        String sql = "SELECT * FROM Pizzas WHERE Ativo = 'SIM' AND "
+                + "Tipo = 'DOCES';";
 
         return executarConsulta(sql);
     }

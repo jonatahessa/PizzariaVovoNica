@@ -200,7 +200,24 @@ section {
 .cardapio {
   width: 30%;
   display: inline-block;
-  margin: auto;
+  margin: 3% auto;
+  font-family: 'Jaldi', sans-serif;
+  font-weight: bold;
+}
+
+.titulopreco * {
+  display: inline;
+}
+
+.titulopreco h3 {
+  color: red;
+}
+
+.titulopreco p {
+  float: right;
+  padding-right: 8%;
+  margin: 0;
+  color: green;
 }
 
 #sessaolocalizacao {
@@ -208,7 +225,7 @@ section {
 
 #sessaolocalizacao iframe {
   width: 90%;
-  height: 400px;
+  height: 500px;
   display: block;
   margin: auto;
 }

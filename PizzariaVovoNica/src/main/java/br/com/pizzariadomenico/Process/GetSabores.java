@@ -28,17 +28,27 @@ public class GetSabores extends HttpServlet {
             throws ServletException, IOException, Exception {
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");
-        List<Produto> pizzas = Utils.ListarPizzasPaginaInicialPizzas();
-        List<Produto> esfihas = Utils.ListarPizzasPaginaInicialEsfiha();
-        List<Produto> fogazzas = Utils.ListarPizzasPaginaInicialFogazza();
-        List<Produto> bordas = Utils.ListarPizzasPaginaInicialBordas();
-        List<Produto> bebidas = Utils.ListarPizzasPaginaInicialBebidas();
+        List<Produto> bacon = Utils.ListarPizzasPaginaInicialBacon();
+        List<Produto> calabresa = Utils.ListarPizzasPaginaInicialCalabresa();
+        List<Produto> frango = Utils.ListarPizzasPaginaInicialFrango();
+        List<Produto> lombo = Utils.ListarPizzasPaginaInicialLombo();
+        List<Produto> vegetais = Utils.ListarPizzasPaginaInicialVegetais();
+        List<Produto> frutos = Utils.ListarPizzasPaginaInicialFrutos();
+        List<Produto> presunto = Utils.ListarPizzasPaginaInicialPresunto();
+        List<Produto> queijo = Utils.ListarPizzasPaginaInicialQueijo();
+        List<Produto> especiais = Utils.ListarPizzasPaginaInicialEspeciais();
+        List<Produto> doces = Utils.ListarPizzasPaginaInicialDoces();
         List<Produto> promo = Utils.ListarPizzasPaginaInicialPromocoes();
-        request.setAttribute("pizzas", pizzas);
-        request.setAttribute("esfihas", esfihas);
-        request.setAttribute("fogazzas", fogazzas);
-        request.setAttribute("bordas", bordas);
-        request.setAttribute("bebidas", bebidas);
+        request.setAttribute("bacon", bacon);
+        request.setAttribute("calabresa", calabresa);
+        request.setAttribute("frango", frango);
+        request.setAttribute("lombo", lombo);
+        request.setAttribute("vegetais", vegetais);
+        request.setAttribute("frutos", frutos);
+        request.setAttribute("presunto", presunto);
+        request.setAttribute("queijo", queijo);
+        request.setAttribute("especiais", especiais);
+        request.setAttribute("doces", doces);
         if (promo != null) {
             for (Produto prod : promo) {
                 String promoConvert = prod.getDescricao().replaceAll("\n", "<br/>");
