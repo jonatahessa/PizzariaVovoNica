@@ -197,11 +197,16 @@ section {
 #sessaocardapio {
 }
 
+.corpo-cardapio {
+}
+
 .cardapio {
-  width: 30%;
-  display: inline-block;
-  margin: 3% auto;
   font-family: 'Jaldi', sans-serif;
+  font-weight: bold;
+}
+
+.cardapio h2 {
+  font-size: 35px;
   font-weight: bold;
 }
 
@@ -211,13 +216,19 @@ section {
 
 .titulopreco h3 {
   color: red;
+  font-size: 27px;
 }
 
 .titulopreco p {
   float: right;
   padding-right: 8%;
   margin: 0;
+  font-size: 25px;
   color: green;
+}
+
+.cardapio p {
+  font-size: 20px;
 }
 
 #sessaolocalizacao {
