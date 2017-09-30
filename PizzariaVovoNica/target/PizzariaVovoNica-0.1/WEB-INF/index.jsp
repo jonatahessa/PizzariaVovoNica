@@ -15,12 +15,9 @@
         <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Caveat|Vast+Shadow" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Baloo+Da" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Lusitana" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Jaldi" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
         <link rel="shortcut icon" href="./_imagens/favicon.ico" />
         <title>Pizzaria Vovó Nica</title>
@@ -44,7 +41,6 @@
 
             <div class="sessoes bckgrounded" id="nossacasa">
                 <h1 class="titulos">Nossa Casa</h1>
-                <hr/>
                 <div id="fachada">
                     <img src="_imagens/FachadaPizzaria.jpg">
                 </div>
@@ -55,7 +51,6 @@
 
             <div class="sessoes bckgrounded" id="sessaopromocoes">
               <h1 class="titulos">Promoções</h1>
-              <hr/>
               <c:forEach var="promo" items="${promocoes}">
                 <div class="paineispromo">
                   <h3>${promo.nome}</h3>
@@ -67,7 +62,6 @@
 
             <div class="sessoes bckgrounded" id="sessaocardapio">
               <h1 class="titulos">Cardápio</h1>
-              <hr/>
               <div class="container-fluid">
               <div class="menu row">
 
@@ -186,7 +180,6 @@
 
             <div class="sessoes bckgrounded" id="sessaolocalizacao">
                 <h1 class="titulos">Localização</h1>
-                <hr/>
                 <p>Rua Bruno Taut, 29 - Jardim Sônia, São Paulo - SP <br>
                 (próximo ao mercado Ideal)</p>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1826.853938403204!2d-46.667856650364534!3d-23.686402573559015!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x48b2a8004a5c8a52!2sPizzaria+Vovo+Nica!5e0!3m2!1spt-BR!2sbr!4v1506608880678" allowfullscreen></iframe>
