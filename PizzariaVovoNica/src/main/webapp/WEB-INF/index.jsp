@@ -7,6 +7,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <script type="text/javascript" src="./_resources/domPaginaInicial.js"></script>
+        <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
         <link rel="stylesheet" href="./_resources/estiloPaginaInicial.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -68,115 +69,115 @@
               <h1 class="titulos">Cardápio</h1>
               <hr/>
               <div class="container-fluid">
-              <div class="row">
+              <div class="menu row">
 
-              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 cardapio">
+              <div class="menu-category list-group cardapio">
                 <h2>Bacon</h2>
                 <c:forEach var="bacons" items="${bacon}">
                   <div class="titulopreco">
                     <h3>${bacons.nome}</h3>
                     <p>${bacons.preco}</p>
                   </div>
-                  <p>${bacons.descricao}</p>
+                  <p class="descricao">${bacons.descricao}</p>
                 </c:forEach>
               </div>
 
-              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 cardapio">
+              <div class="menu-category list-group cardapio">
                 <h2>Calabresa</h2>
                 <c:forEach var="calabresas" items="${calabresa}">
                   <div class="titulopreco">
                   <h3>${calabresas.nome}</h3>
                   <p>${calabresas.preco}</p>
                 </div>
-                  <p>${calabresas.descricao}</p>
+                  <p class="descricao">${calabresas.descricao}</p>
                 </c:forEach>
               </div>
 
-              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 cardapio">
+              <div class="menu-category list-group cardapio">
                 <h2>Frango</h2>
                 <c:forEach var="frangos" items="${frango}">
                   <div class="titulopreco">
                   <h3>${frangos.nome}</h3>
                   <p>${frangos.preco}</p>
                 </div>
-                  <p>${frangos.descricao}</p>
+                  <p class="descricao">${frangos.descricao}</p>
                 </c:forEach>
               </div>
 
-              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 cardapio">
+              <div class="menu-category list-group cardapio">
                 <h2>Lombo</h2>
                 <c:forEach var="lombos" items="${lombo}">
                   <div class="titulopreco">
                   <h3>${lombos.nome}</h3>
                   <p>${lombos.preco}</p>
                 </div>
-                  <p>${lombos.descricao}</p>
+                  <p class="descricao">${lombos.descricao}</p>
                 </c:forEach>
               </div>
 
-              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 cardapio">
+              <div class="menu-category list-group cardapio">
                 <h2>Vegetais</h2>
                 <c:forEach var="vegeta" items="${vegetais}">
                   <div class="titulopreco">
                     <h3>${vegeta.nome}</h3>
                     <p>${vegeta.preco}</p>
                   </div>
-                  <p>${vegeta.descricao}</p>
+                  <p class="descricao">${vegeta.descricao}</p>
                 </c:forEach>
               </div>
 
-              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 cardapio">
+              <div class="menu-category list-group cardapio">
                 <h2>Frutos do Mar</h2>
                 <c:forEach var="fruto" items="${frutos}">
                   <div class="titulopreco">
                   <h3>${fruto.nome}</h3>
                   <p>${fruto.preco}</p>
                 </div>
-                  <p>${fruto.descricao}</p>
+                  <p class="descricao">${fruto.descricao}</p>
                 </c:forEach>
               </div>
 
-              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 cardapio">
+              <div class="menu-category list-group cardapio">
                 <h2>Presunto</h2>
                 <c:forEach var="presuntos" items="${presunto}">
                   <div class="titulopreco">
                   <h3>${presuntos.nome}</h3>
                   <p>${presuntos.preco}</p>
                 </div>
-                  <p>${presuntos.descricao}</p>
+                  <p class="descricao">${presuntos.descricao}</p>
                 </c:forEach>
               </div>
 
-              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 cardapio">
+              <div class="menu-category list-group cardapio">
                 <h2>Queijo</h2>
                 <c:forEach var="queijos" items="${queijo}">
                   <div class="titulopreco">
                   <h3>${queijos.nome}</h3>
                   <p>${queijos.preco}</p>
                 </div>
-                  <p>${queijos.descricao}</p>
+                  <p class="descricao">${queijos.descricao}</p>
                 </c:forEach>
               </div>
 
-              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 cardapio">
+              <div class="menu-category list-group cardapio">
                 <h2>Especiais</h2>
                 <c:forEach var="especial" items="${especiais}">
                   <div class="titulopreco">
                   <h3>${especial.nome}</h3>
                   <p>${especial.preco}</p>
                 </div>
-                  <p>${especial.descricao}</p>
+                  <p class="descricao">${especial.descricao}</p>
                 </c:forEach>
               </div>
 
-              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 cardapio">
+              <div class="menu-category list-group cardapio">
                 <h2>Pizzas Doces</h2>
                 <c:forEach var="doce" items="${doces}">
                   <div class="titulopreco">
                   <h3>${doce.nome}</h3>
                   <p>${doce.preco}</p>
                 </div>
-                  <p>${doce.descricao}</p>
+                  <p class="descricao">${doce.descricao}</p>
                 </c:forEach>
               </div>
             </div>

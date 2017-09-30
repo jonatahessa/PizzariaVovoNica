@@ -1,61 +1,61 @@
 html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 body{
-  background: url(../_imagens/background.jpg) center center no-repeat fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url(../_imagens/background.jpg) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 section {
-  height: 100%;
+    height: 100%;
 }
 
 #principal {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 #menu ul {
-  padding: 0px;
-  margin: 0px;
-  float: left;
-  width: 100%;
-  height: 80px;
-  background-color: #EDEDED;
-  list-style: none;
-  font: 100% Tahoma;
-  opacity: .9;
-  position: fixed;
-  z-index: 150;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    width: 100%;
+    height: 80px;
+    background-color: #EDEDED;
+    list-style: none;
+    font: 100% Tahoma;
+    opacity: .9;
+    position: fixed;
+    z-index: 150;
 }
 
 #menu ul li {
-  display: inline;
+    display: inline;
 }
 
 #menu ul li button {
-  background-color: #EDEDED;
-  color: #251d1d;
-  text-decoration: none;
-  height: 100%;
-  float: right;
-  width: 13%;
-  font-size: 100%;
-  font-weight: bold;
-  font-family: 'Josefin Sans', sans-serif;
-  transition: 1s;
-  border: none;
+    background-color: #EDEDED;
+    color: #251d1d;
+    text-decoration: none;
+    height: 100%;
+    float: right;
+    width: 13%;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: 1s;
+    border: none;
 }
 
 #menu ul li button:hover {
-  background-color: #D6D6D6;
-  color: #6D6D6D;
+    background-color: #D6D6D6;
+    color: #6D6D6D;
 }
 
 /**#firstimg {
@@ -67,58 +67,58 @@ section {
 }**/
 
 #firstimg img {
-  width: 100%;
-  margin-top: 80px;
+    width: 100%;
+    margin-top: 80px;
 }
 
 #firstimg h1 {
-  text-align: center;
-  margin: 0;
-  padding-top: 17%;
-  font-size: 800%;
-  font-family: 'Courgette', cursive;
-  text-shadow: 3px 3px 3px black;
-  opacity: .9;
-  color: #f0ec00;
+    text-align: center;
+    margin: 0;
+    padding-top: 17%;
+    font-size: 800%;
+    font-family: 'Courgette', cursive;
+    text-shadow: 3px 3px 3px black;
+    opacity: .9;
+    color: #f0ec00;
 }
 
 #titulo h2 {
-  display: block;
-  margin: auto;
-  font-size: 350%;
-  font-family: 'Baloo Da', cursive;
-  color: #ededed;
-  text-shadow: 3px 3px 3px black;
-  text-align: center;
-  opacity: .9;
+    display: block;
+    margin: auto;
+    font-size: 350%;
+    font-family: 'Baloo Da', cursive;
+    color: #ededed;
+    text-shadow: 3px 3px 3px black;
+    text-align: center;
+    opacity: .9;
 }
 
 #titulo {
-  width: 100%;
-  height: 60%;
-  display: block;
+    width: 100%;
+    height: 60%;
+    display: block;
 }
 
 .sessoes {
-  width: 80%;
-  margin: auto;
+    width: 80%;
+    margin: auto;
 }
 
 .bckgrounded {
-  background-color: white;
-  opacity: 0.9;
-  padding: 3%;
+    background-color: #f8f0ce;
+    opacity: 0.9;
+    padding: 3%;
 }
 
 .titulos {
     font-family: 'Lusitana', serif;
     font-weight: bold;
-    color: #a6a0a0;
+    color: #565656;
     font-size: 220%;
 }
 
 #nossacasa {
-  margin-top: 5%;
+    margin-top: 5%;
 }
 
 #nossacasa p {
@@ -157,41 +157,41 @@ section {
 }
 
 #sessaopromocoes {
-  padding-top: 5%;
+    padding-top: 5%;
 }
 
 .paineispromo {
-  border: 3px solid;
-  border-color: #a6a0a0;
-  width: 60%;
-  display: block;
-  margin: 2% auto;
-  text-align: center;
+    border: 3px solid;
+    border-color: #a6a0a0;
+    width: 60%;
+    display: block;
+    margin: 2% auto;
+    text-align: center;
 }
 
 .paineispromo h3 {
-  font-size: 300%;
-  font-family: 'Permanent Marker', cursive;
-  font-weight: bolder;
-  color: #ff2929;
-  text-shadow: 3px 3px 3px #a6a0a0;
+    font-size: 300%;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bolder;
+    color: #ff2929;
+    text-shadow: 3px 3px 3px #a6a0a0;
 }
 
 .paineispromo p {
-  font-size: 200%;
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-  line-height: 140%;
-  color: #a6a0a0;
+    font-size: 200%;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    line-height: 140%;
+    color: #a6a0a0;
 }
 
 .paineispromo p:last-of-type {
-  color: #f72b2f;
-  font-family: 'Pacifico', cursive;
-  font-weight: bold;
-  text-shadow: 3px 3px 3px #a6a0a0;
-  font-size: 400%;
-  margin-top: 2%;
+    color: #f72b2f;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px #a6a0a0;
+    font-size: 400%;
+    margin-top: 2%;
 }
 
 #sessaocardapio {
@@ -201,44 +201,61 @@ section {
 }
 
 .cardapio {
-  font-family: 'Jaldi', sans-serif;
-  font-weight: bold;
+    width: 30%;
+    font-family: 'Jaldi', sans-serif;
+    font-weight: bold;
 }
 
 .cardapio h2 {
-  font-size: 35px;
-  font-weight: bold;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .titulopreco * {
-  display: inline;
+    display: inline;
 }
 
 .titulopreco h3 {
-  color: red;
-  font-size: 27px;
+    color: red;
+    font-size: 30px;
 }
 
 .titulopreco p {
-  float: right;
-  padding-right: 8%;
-  margin: 0;
-  font-size: 25px;
-  color: green;
+    float: right;
+    font-size: 30px;
+    color: green;
 }
 
-.cardapio p {
+.descricao {
   font-size: 20px;
+}
+
+*, *:before, *:after {box-sizing:  border-box !important;}
+
+
+.row {
+    -moz-column-width: 26em;
+    -webkit-column-width: 26em;
+    -moz-column-gap: 1em;
+    -webkit-column-gap: 1em;
+
+}
+
+.menu-category {
+    display: inline-block;
+    margin:  0.25rem;
+    padding:  1rem;
+    width:  100%;
 }
 
 #sessaolocalizacao {
 }
 
 #sessaolocalizacao iframe {
-  width: 90%;
-  height: 500px;
-  display: block;
-  margin: auto;
+    width: 90%;
+    height: 500px;
+    display: block;
+    margin: auto;
 }
 
 #sessaocontato {
@@ -269,12 +286,12 @@ section {
 }
 
 #sessaocontato a {
-  color: #d5d6d7;
-  font-size: 250%;
+    color: #d5d6d7;
+    font-size: 250%;
 }
 
 #sessaocontato img {
-  width: 5%;
+    width: 5%;
 }
 
 #sessaocontato div {
