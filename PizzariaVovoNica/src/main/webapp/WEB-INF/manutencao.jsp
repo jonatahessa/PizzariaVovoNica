@@ -6,26 +6,42 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="./_resources/estiloManutencao.css">
         <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
         <script type="text/javascript" src="./_resources/domManutencao.js"></script>
         <title>Manutenção</title>
     </head>
     <body>
-        <section id="sessaoprincipal">
+        <section id="sessaoprincipal" class="container-fluid">
+          <div class="row">
+            <div class="cabecalho">
+              <div class="row">
+                <div id="titulo" class="col-xs-12 col-sm-12 col-md-10 col-lg-8">
+                    <h1>Manutenção</h1>
+                </div>
+              </div>
 
-          <div id="logout">
-            <form action="Logout" method="post">
-              <button type="submit" name="button"><span class="glyphicon glyphicon-off"></span> Sair</button>
-            </form>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
+                    <div id="logout" class="novo-logout">
+                      <form action="Logout" method="post">
+                        <button type="submit" name="button"><span class="glyphicon glyphicon-off"></span> Sair</button>
+                      </form>
+                    </div>
+
+                    <div id="divnovo" class="novo-logout">
+                        <button id="novo" type="button" class="btn btn-primary" name="novo">Novo</button>
+                    </div>
+
+                  </div>
+                </div>
+            </div>
           </div>
-            <div id="titulo">
-                <h1>Manutenção</h1>
-            </div>
 
-            <div id="divnovo">
-                <button id="novo" type="button" class="btn btn-primary" name="novo">Novo</button>
-            </div>
+
 
             <div id="pizzas">
 
