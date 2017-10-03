@@ -27,7 +27,7 @@ section {
     float: left;
     width: 100%;
     height: 80px;
-    background-color: #f8f0ce;
+    background-color: #f6ffcc;
     list-style: none;
     font: 100% Tahoma;
     opacity: .9;
@@ -40,7 +40,7 @@ section {
 }
 
 #menu ul li button {
-    background-color: #f8f0ce;
+    background-color: #f6ffcc;
     color: #251d1d;
     text-decoration: none;
     height: 100%;
@@ -105,7 +105,7 @@ section {
 }
 
 .bckgrounded {
-    background-color: #f8f0ce;
+    background-color: #f6ffcc;
     opacity: 0.9;
     padding: 3%;
 }
@@ -160,146 +160,184 @@ section {
     padding-top: 5%;
 }
 
-.paineispromo {
-    border: 1px solid;
-    border-color: #565656;
-    background-color: white;
-    width: 60%;
-    display: block;
-    margin: 2% auto;
-    text-align: center;
-}
-
-.paineispromo h3 {
-    font-size: 300%;
-    font-family: 'Courgette', cursive;
-    font-weight: bolder;
-    color: #ff2929;
-    text-shadow: 3px 3px 3px #a6a0a0;
-}
-
-.paineispromo p {
-    font-size: 200%;
-    font-family: 'Courgette', cursive;
-    font-weight: bold;
-    line-height: 140%;
-    color: #565656;
-}
-
-.paineispromo p:last-of-type {
-    color: #f72b2f;
-    font-family: 'Courgette', cursive;
-    font-weight: bold;
-    text-shadow: 3px 3px 3px #a6a0a0;
-    font-size: 400%;
-    margin-top: 2%;
-}
-
-#sessaocardapio {
-}
-
 @media only screen and (max-device-width: 600px) {
-  *, *:before, *:after {box-sizing:  border-box !important;}
+    *, *:before, *:after {box-sizing:  border-box !important;}
 
 
-  .row {
-      -moz-column-width: 100em;
-      -webkit-column-width: 100em;
-      -moz-column-gap: 1em;
-      -webkit-column-gap: 1em;
+    .row {
+        -moz-column-width: 100em;
+        -webkit-column-width: 100em;
+        -moz-column-gap: 1em;
+        -webkit-column-gap: 1em;
 
-  }
+    }
 
-  .menu-category {
-      display: inline-block;
-      margin: 0.25rem;
-      padding: 1rem;
-      width: 100%;
-  }
+    .menu-category {
+        display: inline-block;
+        margin: 0.25rem;
+        padding: 1rem;
+        width: 100%;
+    }
 
-  .corpo-cardapio {
-  }
+    .corpo-cardapio {
+    }
 
-  .cardapio {
-      font-family: 'Jaldi', sans-serif;
-      font-weight: bold;
-  }
+    .cardapio {
+        font-family: 'Jaldi', sans-serif;
+        font-weight: bold;
+    }
 
-  .cardapio h2 {
-      font-size: 50px;
-      font-weight: bold;
-  }
+    .cardapio h2 {
+        font-size: 50px;
+        font-weight: bold;
+    }
 
-  .titulopreco * {
-      display: inline;
-  }
+    .titulopreco * {
+        display: inline;
+    }
 
-  .titulopreco h3 {
-      color: red;
-      font-size: 40px;
-  }
+    .titulopreco h3 {
+        color: red;
+        font-size: 40px;
+    }
 
-  .titulopreco p {
-      float: right;
-      font-size: 40px;
-      color: green;
-  }
+    .titulopreco p {
+        float: right;
+        font-size: 40px;
+        color: green;
+    }
 
-  .descricao {
-    font-size: 30px;
-  }
+    .descricao {
+        font-size: 30px;
+    }
+    
+    .paineispromo {
+        border: 1px solid;
+        border-color: #565656;
+        background-color: white;
+        width: 80%;
+        display: block;
+        margin: 2% auto;
+        text-align: center;
+    }
+
+    .paineispromo h3 {
+        font-size: 400%;
+        font-family: 'Courgette', cursive;
+        font-weight: bolder;
+        color: #ff2929;
+        text-shadow: 3px 3px 3px #a6a0a0;
+    }
+
+    .paineispromo p {
+        font-size: 300%;
+        font-family: 'Courgette', cursive;
+        font-weight: bold;
+        line-height: 140%;
+        color: #565656;
+    }
+
+    .paineispromo p:last-of-type {
+        color: #f72b2f;
+        font-family: 'Courgette', cursive;
+        font-weight: bold;
+        text-shadow: 3px 3px 3px #a6a0a0;
+        font-size: 500%;
+        margin-top: 2%;
+    }
+
+    #sessaocardapio {
+    }
 }
 
 @media only screen and (min-device-width: 601px) {
-  *, *:before, *:after {box-sizing:  border-box !important;}
+    *, *:before, *:after {box-sizing:  border-box !important;}
 
-  .row {
-      -moz-column-width: 22em;
-      -webkit-column-width: 22em;
-      -moz-column-gap: 1em;
-      -webkit-column-gap: 1em;
+    .row {
+        -moz-column-width: 22em;
+        -webkit-column-width: 22em;
+        -moz-column-gap: 1em;
+        -webkit-column-gap: 1em;
 
-  }
+    }
 
-  .menu-category {
-      display: inline-block;
-      margin:  0.25rem;
-      padding:  1rem;
-      width:  100%;
-}
+    .menu-category {
+        display: inline-block;
+        margin:  0.25rem;
+        padding:  1rem;
+        width:  100%;
+    }
 
 
-.corpo-cardapio {
-}
+    .corpo-cardapio {
+    }
 
-.cardapio {
-    font-family: 'Jaldi', sans-serif;
-    font-weight: bold;
-}
+    .cardapio {
+        font-family: 'Jaldi', sans-serif;
+        font-weight: bold;
+    }
 
-.cardapio h2 {
-    font-size: 35px;
-    font-weight: bold;
-}
+    .cardapio h2 {
+        font-size: 35px;
+        font-weight: bold;
+    }
 
-.titulopreco * {
-    display: inline;
-}
+    .titulopreco * {
+        display: inline;
+    }
 
-.titulopreco h3 {
-    color: red;
-    font-size: 25px;
-}
+    .titulopreco h3 {
+        color: red;
+        font-size: 25px;
+    }
 
-.titulopreco p {
-    float: right;
-    font-size: 25px;
-    color: green;
-}
+    .titulopreco p {
+        float: right;
+        font-size: 25px;
+        color: green;
+    }
 
-.descricao {
-  font-size: 20px;
-}
+    .descricao {
+        font-size: 20px;
+    }
+
+    .paineispromo {
+        border: 1px solid;
+        border-color: #565656;
+        background-color: white;
+        width: 60%;
+        display: block;
+        margin: 2% auto;
+        text-align: center;
+    }
+
+    .paineispromo h3 {
+        font-size: 300%;
+        font-family: 'Courgette', cursive;
+        font-weight: bolder;
+        color: #ff2929;
+        text-shadow: 3px 3px 3px #a6a0a0;
+    }
+
+    .paineispromo p {
+        font-size: 200%;
+        font-family: 'Courgette', cursive;
+        font-weight: bold;
+        line-height: 140%;
+        color: #565656;
+    }
+
+    .paineispromo p:last-of-type {
+        color: #f72b2f;
+        font-family: 'Courgette', cursive;
+        font-weight: bold;
+        text-shadow: 3px 3px 3px #a6a0a0;
+        font-size: 400%;
+        margin-top: 2%;
+    }
+
+    #sessaocardapio {
+    }
 }
 
 #sessaolocalizacao {
